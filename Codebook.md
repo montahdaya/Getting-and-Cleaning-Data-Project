@@ -5,8 +5,8 @@ This is a code book that describes the variables, the data, and any transformati
 
 #The data source
 
-#Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-#Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 #Data Set Information
 
@@ -17,7 +17,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 #The data
 
-##The dataset includes the following files:
+The dataset includes the following files:
 
 'README.txt'
 
@@ -47,7 +47,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 #Transformation details
 
-#There are 5 parts or steps :
+There are 5 parts or steps :
 
 1.Merges the training and the test sets to create one data set.
 2.Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -57,12 +57,12 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 #How run_analysis.R implements the above steps:
 
-#Require reshapre2 and data.table librareis.
-#Load both test and train data
-#Load the features and activity labels.
-#Extract the mean and standard deviation column names and data.
-#Process the data. There are two parts processing test and train data respectively.
-#Merge data set.
-#Creating a new data set : tidy_data
+1.Require reshapre2 and data.table librareis.
+2.Load both test and train data
+3.Load the features and activity labels.
+4.Extract the mean and standard deviation column names and data.
+5.Process the data. There are two parts processing test and train data respectively.
+6.Merge data set.
+7.Creating a new data set : tidy_data
 
-#End !!
+End !!
